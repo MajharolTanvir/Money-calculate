@@ -26,6 +26,9 @@ function calculateValue() {
 	const expensesValue = document.getElementById('total-expenses')
 	expensesValue.innerText = totalExpencesmoney;
 	const expensesText = parseFloat(expensesValue.innerText);
+	if (incomeFiled < expensesText){
+		alert('Please enter a valid expences amount')
+	}
 	// Balance show
 	const balanceInput = document.getElementById('balance-amount');
 	balanceInput.innerText = incomeFiled - expensesText;
