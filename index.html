@@ -24,7 +24,7 @@
                     <h5>Income</h5>
                     <div class="d-flex gap-2 justify-content-center align-items-center">
                         <h6>Income</h6>
-                        <input class="bg-secondary border-0 bg-opacity-25 text-dark" type="number" placeholder="Enter your salary" value="0">
+                        <input id="income-value" class="bg-secondary border-0 bg-opacity-25 text-dark" type="number" placeholder="Enter your salary" value="0">
                     </div>
                     <h5 class="m-3">Expenses</h5>
                     <div class="d-flex gap-2 justify-content-center align-items-center">
@@ -40,8 +40,8 @@
                         <input id="clothes-price" class="bg-secondary border-0 bg-opacity-25 text-dark" type="number" placeholder="Clothes Price">
                     </div>
                     <button id="Calc-btn" class="bg-primary m-3 px-4 py-2 rounded text-light border-0">Calculate</button>
-                    <h6>Total Expenses <span>00</span></h6>
-                    <h6>Balance <span>00</span></h6>
+                    <h6>Total Expenses <span id="total-expenses">00</span></h6>
+                    <h6>Balance <span id="balance-amount">00</span></h6>
                     <div class="d-flex  gap-2 justify-content-center align-items-center">
                         <h6>Save</h6>
                         <input class="bg-secondary border-0 bg-opacity-25 text-dark" type="number" name="" id="" style="width: 80px;">
